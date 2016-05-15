@@ -13,7 +13,11 @@ h1 {
 }
 
 h2 {
-	margin-top: 0px;
+	margin-top: 0px; 
+}
+
+h3 {
+  margin-top: 20px;
 }
 
 body {
@@ -32,11 +36,13 @@ body {
 position: relative;
 width: 250px;
 padding: 10px 10px 10px 10px;
-background: #CCFFCC;
+background: #F2F2F2;
 -webkit-border-radius: 10px;
 -moz-border-radius: 10px;
 border-radius: 10px;
 clear:both;
+margin: 5px;
+word-wrap:break-word;
 }
 
 .bubble_left:after 
@@ -45,7 +51,7 @@ content: '';
 position: absolute;
 border-style: solid;
 border-width: 15px 15px 15px 0;
-border-color: transparent #CCFFCC;
+border-color: transparent #F2F2F2;
 display: block;
 width: 0;
 z-index: 1;
@@ -64,6 +70,9 @@ background: #CCFFCC;
 -webkit-border-radius: 10px;
 -moz-border-radius: 10px;
 border-radius: 10px;
+margin-bottom: 5px;
+word-wrap:break-word;
+display:inline-block;
 
 }
 .bubble_right:after 
@@ -82,9 +91,10 @@ top: 50%;
 }
 
 .chat {
-	max-width: 600px;
+	max-width: 500px;
 	width:100%;
 	padding: 10px 10px 10px 10px;
+  overflow:hidden;
 	
 }
 
@@ -102,8 +112,13 @@ top: 50%;
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
+  margin: 0px 10px 0px 0px;
   text-decoration: none;
 
+}
+
+.btn-container{
+  margin:30px 0px 50px 0px;
 }
 
 .btn:hover {
